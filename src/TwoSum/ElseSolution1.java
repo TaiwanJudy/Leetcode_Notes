@@ -1,0 +1,16 @@
+//討論區思路1 Two-pass Hash Table
+package TwoSum;
+
+public class ElseSolution1 {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> numMap = new HashMap<>();
+        int n = nums.length;
+
+        //Build the hash table
+        for(int i = 0; i < n; i++){
+            numMap.put(nums[i], i);
+        }
+
+        //Fing the complement
+    }
+}

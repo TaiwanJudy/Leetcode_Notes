@@ -1,3 +1,4 @@
+//我自己的思路 暴力法
 package TwoSum;
 
 class MySolution {
