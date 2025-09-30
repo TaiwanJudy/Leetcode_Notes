@@ -16,6 +16,10 @@
 | D      | 500   |
 | M      | 1000  |
 
-## 自己的思路 MySolution
+## 自己的思路 MySolutions
+- 思路一
+  - 利用 switch case 查找每個數字，並確認 I、X、C 後有沒有 VX、LC、DM 來計算出 result。
+- 思路二
+  - 利用 Map 記錄羅馬字元與其值，迴圈跑每個字元，如果 當前 < 下一個字元 則先減去當前值。
 
 ## 討論區大神思路 ElseSolutions
